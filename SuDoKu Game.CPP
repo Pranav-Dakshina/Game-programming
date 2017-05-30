@@ -1,5 +1,6 @@
 /*                        THE PROJECT
-	     Program Containing Su Do Ku And Guessing Game (Number And Month)          */
+	     Program Containing Su Do Ku And Guessing Game (Number And Month)       
+	     Author: Pranav Dakshinamurthy                                                */
 
 #include<fstream.h>
 #include<stdio.h>
@@ -46,17 +47,17 @@ void s_effects::load()
   setcolor(WHITE);
     for(j=147;j<=250;j+=2)
       {
-	outtextxy(j,80,"Þ");
+	outtextxy(j,80,"Ãž");
 	delay(50);
       }
     for(j=251;j<=270;j+=2)
       {
-	outtextxy(j,80,"Þ");
+	outtextxy(j,80,"Ãž");
 	delay(400);
       }
     for(j=271;j<=392;j+=2)
       {
-	outtextxy(j,80,"Þ");
+	outtextxy(j,80,"Ãž");
 	delay(10);
       }
        clrscr();
